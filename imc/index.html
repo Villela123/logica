@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculo do IMC</title>
+</head>
+<body bgcolor="#b43">
+    <h1>Calculo do IMC</h1>
+    <form name = "frmImc">
+        <p><input type="text" placeholder="Peso" name="vlrPeso"></p>
+        <input type="text" placeholder="Altura" name="vlrAltura">
+        <p><input type="button" value="Calcular IMC" onclick="calcularImc()"></p>
+        <input type="text" placeholder="IMC" name="vlrImc" disabled>
+        <p><input type="text" placeholder="Indice" name="vlrIndice" disabled></p>
+        <img src="imc.jpg" id="imc">
+    </form>
+    <script src="calculoimc.js"></script>   
+</body>
+</html>
